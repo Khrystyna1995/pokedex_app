@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
-import './media.css';
+import '../../css/media.css';
 import typeColors from "../../helpers/typeColors";
 import ShowInfo from "../ShowInfo";
 import {getAllPokemon, getPokemon} from "../../services/pokemon";
