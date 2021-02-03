@@ -3,6 +3,7 @@ import {getAllPokemon, getPokemon} from "./services/pokemon";
 import Card from './components/Card';
 import NavBar from "./components/NavBar";
 import './App.css';
+import './css/media.css'
 
 function App() {
   const [pokemonData, setPokemonData] = useState([]);
