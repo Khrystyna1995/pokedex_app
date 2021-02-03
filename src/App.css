@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+.container {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 100px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+  width: 400px;
+  background: #278bf6;
+  border-radius: 10px;
+}
+
+.btn button {
+  border-style: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background: #278bf6;
+  color: cornsilk;
+  font-size: 25px;
+  font-weight: 800;
+}
